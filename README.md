@@ -6,16 +6,25 @@ A curated collection of useful and versatile scripts written in Python, Bash, an
 
 ## Features
 
-	• Python Scripts: Powerful utilities for data processing, file handling, API interaction, and more.
-	• Bash Scripts: Handy shell scripts for system administration, task automation, and quick fixes.
-	• Go Scripts: High-performance tools and utilities leveraging the efficiency and concurrency of Go.
+• Python Scripts: Powerful utilities for data processing, file handling, API interaction, and more.
+• Bash Scripts: Handy shell scripts for system administration, task automation, and quick fixes.
+• Go Scripts: High-performance tools and utilities leveraging the efficiency and concurrency of Go.
 
 ## Use Cases
 
-	• Automating repetitive tasks
-	• Managing and analyzing system files
-	• Learning and referencing scripting techniques across multiple languages
-    • Use CLI tools instead of visiting paid or hard to use online tools
+• Automating repetitive tasks
+• Managing and analyzing system files
+• Learning and referencing scripting techniques across multiple languages
+• Use CLI tools instead of visiting paid or hard to use online tools
 
 Feel free to contribute, raise issues, or suggest new scripts to grow this repository into a comprehensive toolbox for developers.
 
+## Setup
+
+For `Python` scripts,
+
+```sh
+python3 -m venv env
+source env/bin/activate
+pip3 install -r requirements.txt
+```
